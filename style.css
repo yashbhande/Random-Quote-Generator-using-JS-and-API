@@ -1,0 +1,95 @@
+/* Define custom CSS variables */
+:root {
+    --pink-lace: #f5cce8;
+    --plum-web: ec9ded;
+    --middle-purple: #c880b7;
+    --pearly-purple: #pf6ba0;
+    --darkpurple: #4a2040;
+}
+
+/* Reset default styles and apply custom font */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Style the body */
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: var(--darkpurple);
+    padding: 2rem;
+}
+
+/* Style the quote wrapper */
+.quote-wrapper {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 4rem 1.5rem;
+    -webkit-box-shadow: 0px 2px 15px -5px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 2px 15px -5px rgba(0, 0, 0, 1);
+    box box-shadow: 0px 2px 15px -5px rgba(0, 0, 0, 1);
+}
+
+/* Style the quote heading */
+.quote-wrapper h2 {
+    font-weight: 700;
+    padding: 0.2rem 1rem;
+    color: var(--darkpurple);
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+/* Style the quote tags */
+.quote-wrapper small {
+    font-weight: 700;
+    padding: 0.2rem 1rem;
+    color: var(--darkpurple);
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+/* Style the quote text */
+.quote-wrapper blockquote {
+    padding: 1.4rem 0;
+    font-weight: 300;
+}
+
+/* Style the quote author */
+.quote-wrapper cite {
+    display: block;
+    font-style: normal;
+    margin-bottom: 1rem;
+}
+
+/* Style the quote button */
+#gen-quote-btn {
+    font-size: 1.1rem;
+    border: none;
+    background-color: #4a2040;
+    color: #fff;
+    padding: 0.7rem 1.2rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    outline: 0;
+}
+
+/* Add box shadow to the quote button */
+#gen-quote-btn {
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(159, 107, 160, 0.67);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(159, 107, 160, 0.67);
+    box-shadow: 0px 0px 9px -px rgba(159, 107, 160, 0.67);
+}
+
+/* Apply responsive styles for screens wider than 680px */
+@media screen and (min-width: 680px) {
+    .quote-wrapper {
+        width: 600px;
+    }
+}
