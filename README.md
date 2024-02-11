@@ -59,3 +59,4 @@ Acknowledgements
 The Quotable API by Luke Peavey: https://github.com/lukePeavey/quotable
 
 The inspiration for this project came from various online tutorials and resources.
+Thanks
