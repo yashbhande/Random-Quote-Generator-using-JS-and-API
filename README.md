@@ -53,7 +53,7 @@ Make your changes and test them thoroughly.
 Submit a pull request explaining the changes you've made.
 
 License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License..
 
 Acknowledgements
 The Quotable API by Luke Peavey: https://github.com/lukePeavey/quotable
